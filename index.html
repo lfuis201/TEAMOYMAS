@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <link rel="icon" href="vid/icono.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <title>te amo y mas</title>
+</head>
+<body>
+    
+    <div class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <h1 class = "navidad"><center>Poni</center></h1>
+                </li>
+                <li class="splide__slide">
+                    <h1 class = "navidad"><center>Esta va a ser mi ultima movida</center></h1>
+                </li>
+                <li class="splide__slide">
+                    <h1 class = "navidad"><center>Esta cancion dice muchas cosas que quiero decirte</center></h1>
+                </li>
+                <li class="splide__slide">
+                    <h1 class = "navidad"><center>Pero no puedo</center></h1>
+                </li>
+                <li class="splide__slide">
+                    <h1 class = "navidad"><center>Tengo que confesar que aveces</center></h1>
+                </li>
+                <li class="splide__slide">
+                    <h1 class = "navidad"><center>no me gusta tu forma de ser</center></h1>
+                </li>
+                <li class="splide__slide">
+                    <h1 class = "navidad"><center>luego te me desapareces</center></h1>
+                </li>
+                <li class="splide__slide">
+                    <h1 class = "navidad"><center>y no entiendo muy bien porque...</center></h1>
+                </li>
+                <li class="splide__slide">
+                    <h1 class = "navidad"><center>Te amo y mas</center></h1>
+                </li>
+                <li class="splide__slide">
+                    <div id="main">
+                        <div class = "text">
+                            mira la letra&nbsp;
+                            <a class = "link" href="https://www.youtube.com/watch?v=69npN04PwL0" target="_blank">link</a>
+                        </div>
+                        <div id="videoPanel">
+                                <video id="myVideo" src="vid/te_amo_y_mas.mp4" controls></video>
+                        </div>   
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener( 'DOMContentLoaded', function () {
+            new Splide( '.splide',{
+                width : '100vw',
+		        height: '100vh',
+            }
+             ).mount();
+        } );
+    </script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
